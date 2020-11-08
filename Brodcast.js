@@ -12,13 +12,13 @@ setInterval(() => {
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '#'
+const prefix = '!'
 client.on('ready', () => {
 console.log('[ BOT IS ONLINE ]')
 console.log('Brodcast')
 console.log('by ➹〖فتحي〗👑#0444')
 });
-client.login("");
+client.login("Nzc0ODkwMzM4NjMyMDczMjI3.X6eW3Q.YPa0HFipaaQPf8VxHKj9RedZHxQ");
 client.on("ready", () => {
   client.user.setStatus("idle");
   client.user.setActivity(`by ➹〖فتحي〗👑#0444`, { type: "playing" });
